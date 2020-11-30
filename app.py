@@ -6,4 +6,4 @@ app = Flask(__name__)
 def home():
 	return "hello world"
 
-app.run(debug=False)
+#app.run(debug=False)
