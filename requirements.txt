@@ -2,6 +2,4 @@ PyQRCode
 gunicorn
 requests
 flask
-flask_restplus
-Werkzeug==0.16.1
 argparse
