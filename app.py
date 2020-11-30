@@ -1,12 +1,11 @@
-from flask import Flask
-import requests
+from flask import Flask, request
 import pyqrcode
 app = Flask(__name__)
 
 
 @app.route('/')
 def home():
-	link = requests.args.get('link')
+	link = request.args.get('link')
 	url = pyqrcode.create(link)
 	return url
 

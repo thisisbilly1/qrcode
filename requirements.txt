@@ -1,5 +1,4 @@
 PyQRCode
 gunicorn
-requests
 flask
 argparse
