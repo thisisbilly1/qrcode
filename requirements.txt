@@ -1,4 +1,3 @@
-PyQRCode
+flask-qrcode
 gunicorn
 flask
-argparse
