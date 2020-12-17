@@ -10,7 +10,7 @@ qrcode = QRcode(app)
 
 @app.route('/')
 def index():
-    return "hello world lol"
+    return "EHS QR Code generator by Nicholas Koerber. Go to /qrcoce?id=XX to make a qr code for a device."
 
 
 @app.route('/qrcode', methods=['GET'])
